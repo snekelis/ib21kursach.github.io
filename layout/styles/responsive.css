@@ -1,0 +1,135 @@
+
+
+
+.wrapper1{
+    max-width: 1100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*  listings section  */
+.listings{
+    padding: 100px 0;
+}
+
+.listings ul.properties_list{
+    list-style: none;
+    overflow: hidden;
+}
+
+.listings ul.properties_list li{
+    display: block;
+    width: 30.90909090909091%;
+    height: auto;
+    position: relative;
+    float: left;
+    margin: 0 3.636363636363636% 3.636363636363636% 0;
+}
+
+
+
+
+.listings ul.properties_list li .price{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 15px 20px;
+    background: #ffffff;
+    color: #514d4d;
+    font-family: "lato-bold", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+
+.listings ul.properties_list li:nth-child(3n+0){
+    margin-right: 0;
+}
+
+
+
+/*Рамка Наши автомобили*/
+.listings ul li .property_details{
+    width: 100%;
+    padding: 2.941176470588235% 5.882352941176471% 4.117647058823529% 5.882352941176471%;
+    border-bottom: 2px solid #15AD72;
+    border-left: 2px solid #15AD72;
+    border-right: 2px solid #15AD72;
+
+    transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear;
+}
+
+.listings ul li:hover .property_details{
+    border-bottom: 2px solid #474747;
+    border-left: 2px solid #474747;
+    border-right: 2px solid #474747;
+}
+
+.listings .more_listing{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 84px 0 22px 0;
+}
+
+.listings .more_listing_btn{
+	border-color:#ffcc00; 
+	background-color:#1b2026;
+    text-decoration: none;
+    padding: 20px 40px;
+    border: 2px solid #15AD72;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -o-border-radius: 30px;
+    color: #15AD72;
+    font-family: "lato-regular", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+
+    transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear;
+}
+
+.listings :hover .more_listing_btn{
+	color:#FFFFFF; 
+	background-color:#1b2026;
+    border-bottom: 2px solid #474747;
+    border-left: 2px solid #474747;
+    border-right: 2px solid #474747;
+	border-top: 2px solid #474747;
+}
+
+.listings ul li .property_details h2{
+    color: #FFFFFF;
+    font-family: "lato-regular", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 26px;
+    font-weight: normal;
+}
+.elements1 article i{border-color:#ffcc00; background-color:#1b2026;}
+.elements1 article:hover i{color:#FFFFFF; background-color:#1b2026;}
+
